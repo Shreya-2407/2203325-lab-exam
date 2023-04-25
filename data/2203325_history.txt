@@ -1,0 +1,149 @@
+    1  ls -al ~/.ssh | grep "id_rsa"
+    2  ssh-keygen -t RSA
+    3  cd .ssh
+    4  ls -al
+    5  cat id_rsa.pub
+    6  cd
+    7  git --version
+    8  git config -- user.name
+    9  git config --global user.name
+   10  git config --global user.name "Shreya"
+   11  git config --global user.email "iamshreya2407@gmail.com"
+   12  git config --global user.name
+   13  git config --global user.email
+   14  git clone git@github.com:Shreya-2407/CS102-spring23.git
+   15  cd CS102-spring23
+   16  touch files.txt
+   17  vim files.txt
+   18  cat files.txt
+   19  git add.
+   20  git add .
+   21  git commit -m "my first self commit"
+   22  git status
+   23  git push origin main
+   24  ls -al
+   25  cat files.txt
+   26  git status
+   27  rm -f files.txt
+   28  ls -al
+   29  touch files.txt
+   30  ls -al
+   31  vim files.txt
+   32  cat files.txt
+   33  git add .
+   34  git status
+   35  git commit -m "This is my first self commit"
+   36  git status
+   37  git push origin main
+   38  git push origin master
+   39  cd
+   40  git config --global user.name "Shreya"
+   41  git config --global user.email "iamshreya2407@gmail.com"
+   42  git clone git@github.com:Shreya-2407/2203325-lab-exam.git
+   43  touch README.md
+   44  vim README.md
+   45  cat README.md
+   46  git add .
+   47  git clone git@github.com:Shreya-2407/2203325-lab-exam.git
+   48  cd 2203325-lab-exam
+   49  touch README.md
+   50  vim README.md
+   51  cat README.md
+   52  git add .
+   53  cd
+   54  git clone git@github.com:tusharlone/cs102-git-essentials.git
+   55  ls
+   56  cd cs102-git-essentials
+   57  ls -al
+   58  ls
+   59  mv ca_500.csv ~/2203325-lab-exam/
+   60  mv us_500.csv ~/2203325-lab-exam/
+   61  cd
+   62  cd 2203325-lab-exam
+   63  ls
+   64  git add .
+   65  cd
+   66  cat ca_500.csv
+   67  cd 2203325-lab-exam
+   68  cat ca_500.csv
+   69  wc -l ca_500.csv
+   70  wc -l us_500.csv
+   71  head -n 1 ca_500.csv 
+   72  head -n 1 us_500.csv 
+   73  grep -iw "Montreal" ca_500.csv
+   74  touch ca_city_Montreal.csv
+   75  head -n 1 us_500.csv >> ca_city_Montreal.csv
+   76  grep -iw "Montreal" ca_500.csv >> ca_city_Montreal.csv
+   77  cat ca_city_Montreal.csv
+   78  vim
+   79  bash 2203325_data_filter.sh us_500.csv,city,Miami
+   80  vim 2203325_data_filter.sh 
+   81  bash 2203325_data_filter.sh us_500.csv,city,Miami
+   82  bash 2203325_data_filter.sh us_500.csv city Miami
+   83  vim 2203325_data_filter.sh 
+   84  bash 2203325_data_filter.sh us_500.csv city Miami
+   85  vim 2203325_data_filter.sh 
+   86  bash 2203325_data_filter.sh us_500.csv city Miami
+   87  vim 2203325_data_filter.sh 
+   88  bash 2203325_data_filter.sh us_500.csv city Miami
+   89  vim 2203325_data_filter.sh 
+   90  bash 2203325_data_filter.sh us_500.csv city Miami
+   91  vim 2203325_data_filter.sh 
+   92  bash 2203325_data_filter.sh us_500.csv city Miami
+   93  vim 2203325_data_filter.sh 
+   94  bash 2203325_data_filter.sh us_500.csv city Miami
+   95  vim 2203325_data_filter.sh 
+   96  bash 2203325_data_filter.sh us_500.csv city Miami
+   97  vim 2203325_data_filter.sh 
+   98  bash 2203325_data_filter.sh us_500.csv city Miami
+   99  mkdir data
+  100  mkdir code
+  101  mv 2203325_data_filter.sh ~/code
+  102  cd
+  103  cd code
+  104  cd 2203325-lab-exam/
+  105  cd code/
+  106  ls
+  107  ls -al
+  108  ls
+  109  cd 2203325-lab-exam/
+  110  cd 
+  111  cd 2203325-lab-exam/
+  112  ls
+  113  vim 2203325_data_filter.sh 
+  114  ls
+  115  vim 2203325_data_filter.sh 
+  116  bash 2203325_data_filter.sh us_500.csv city Miami
+  117  mv 2203325_data_filter.sh ~/code
+  118  cd code
+  119  ls
+  120  cd ..
+  121  ls
+  122  cd ~
+  123  ls
+  124  cat code 
+  125  mv code 2203325_data_filter.sh
+  126  ls
+  127  cd 2203325-lab-exam/
+  128  cd code
+  129  mv 2203325_data_filter.sh ~/2203325-lab-exam/code/
+  130  cd ~
+  131  ls
+  132  mv 2203325_data_filter.sh ~/2203325-lab-exam/code/
+  133  ls
+  134  cd cs102-git-essentials/code
+  135  cd 2203325-lab-exam/
+  136  cd code
+  137  ls
+  138  mv *.csv ~/2203325-lab-exam/data/
+  139  cd..
+  140  mv *.csv ~/2203325-lab-exam/data/
+  141  cd..
+  142  cd
+  143  cd 2203325-lab-exam/
+  144  mv *.csv ~/2203325-lab-exam/data/
+  145  cd data
+  146  ls
+  147  2203325_history.txt
+  148  touch 2203325_history.txt
+  149  history >> 2203325_history.txt 
